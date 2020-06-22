@@ -5,7 +5,7 @@ class KommunicateChat extends Component {
 	}
 	componentDidMount(){
 		(function(d, m){
-        var kommunicateSettings = {"appId":"ad7241b0029f2ea37246465805907c1d78cec6f8","popupWidget":true,"automaticChatOpenOnNavigation":true};
+        var kommunicateSettings = {"appId":"2fbeb8ab08fcb0900a55722f837c39dc7","popupWidget":true,"automaticChatOpenOnNavigation":true};
         var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
         s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
         var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
@@ -15,7 +15,7 @@ class KommunicateChat extends Component {
 	render() {
 		return (
 			<div></div>
-			)
+		)
 	}
 }
 export default KommunicateChat;
