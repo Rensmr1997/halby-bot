@@ -4,9 +4,13 @@ import KommunicateChat from './chat';
 
 function App() {
   return (
-    <div>
-      <KommunicateChat/>   
-    </div>
+    <div className="App">
+      <div className="container-fluid">
+       <KommunicateChat/>   
+        
+      </div>
+    </div> 
+
   );
 }
 
