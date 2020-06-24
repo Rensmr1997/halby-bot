@@ -15,6 +15,10 @@
   background: #005a77;
 }
 
+.navbar-brand {
+  margin-left: 1%;
+}
+
 .homepage-header {
   background-image: url("images/header-image.jpg");
   background-repeat: no-repeat;
@@ -34,7 +38,6 @@
   left: 0;
   bottom: 0;
   right: 0;
-  background: linear-gradient(-45deg, #f3c342 35%, #016589 65%);
   opacity: 0.5;
 }
 
